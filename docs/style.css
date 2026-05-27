@@ -1,16 +1,5 @@
 /*most of this information is usually subject to change seeing as to how coding is a first for me and is hghly  experimental*/
-         section{
-                 min-height:100vh;
-                font-size:15px;
-                }
-         section{
-                 display: flex;
-                 text-decoration:none;
-                 text-align:center;
-                 justify-content:center;
-                 align-items:center;
-                flex-direction:column;
-                }
+         
                #section-dark{
                              background-color:#0f172a;
                              color:white;
@@ -56,18 +45,20 @@
                    display:flex;
                    background-color:purple;
                    justify-content:center;
-                   text-align:center;
                    border-radius:8px;
                    padding:18px 20px;
-                   gap: 35px;
+                   margin: 18px;
                    flex-wrap:35px;
+                   width:100%
+                   
                   }
         #navbar a{ 
                    color:white;
                    text-decoration:none;
                    font-weight:bold;
-                   margin:50px;
-                   font-size:26px;
+                   font-size:18px;
+                   padding:6px 12px;
+                   white-space:nowrap;
                  }
  #navbar a:visited{
                    color:white;
