@@ -9,25 +9,27 @@
                               color:white;
                              }
                #home{
-                   
                       font-family:Arial, Helvetica, sans-serif;
                       background:linear-gradient(to bottom,grey,gray,gainsboro,whitesmoke);
                       color:#0f172a;
                       font-style:oblique;
+                      display:flex;
+                      justify-content:center;
+                      flex-wrap:wrap;
+                    }
+               #home{
+                     font-size:18px;
+                     font-weight:500%;
+                     text-decoration:none;
                     }
              #home h1{ 
-                      padding-top:0;
+                      padding:12px 24px;
                       justify-content: center;
                       align-items: center;
                       display: flex;
-                      font-size:70px;
+                      font-size:35px;
                       color:#0f172a;
                      }
-              #home{ 
-                     min-height:100vh;
-                     font-size:45px;
-                     margin-bottom:70px;
-                   }
 
              .btn{
                   margin-top:20px;
