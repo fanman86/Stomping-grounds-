@@ -50,7 +50,6 @@
                    background-color:purple;
                    justify-content:center;
                    border-radius:8px;
-                   padding:18px 20px;
                    flex-wrap:35px;
                    width:100%
                   }
@@ -58,9 +57,10 @@
                    color:white;
                    text-decoration:none;
                    font-weight:bold;
-                   font-size:12px;
+                   font-size:16px;
                    white-space:nowrap;
-                   margin: 16px;
+                   gap: 8px;
+                   padding:10px 15px;
                  }
  #navbar a:visited{
                    color:white;
