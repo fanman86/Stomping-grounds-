@@ -20,6 +20,7 @@
                      font-size:18px;
                      font-weight:500%;
                      text-decoration:none;
+                     flex-wrap:wrap;
                     }
              #home h1{ 
                       padding:12px 24px;
