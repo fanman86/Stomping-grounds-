@@ -46,10 +46,7 @@
                         background-color:#e0f2fe;
                        }
           #navbar {
-                
                    justify-content:center;
-              
-                
                    width:100%
                   }
         #navbar a{ 
@@ -64,8 +61,8 @@
                    color:white;
                   } 
  #navbar a:hover{
-                 background-color:palegoldenrod;
-                 color:purple;
+                 background-color:purple;
+                 color:palegoldenrod;
                 }
            
 
