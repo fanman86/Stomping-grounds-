@@ -15,7 +15,6 @@
                       font-style:oblique;
                       display:flex;
                       justify-content:center;
-                      flex-wrap:wrap;
                     }
                #home{
                      font-size:18px;
@@ -56,6 +55,7 @@
                    border-radius:8px;
                    text-decoration:none;
                    font-weight:bold;
+                   flex-wrap:wrap;
                  }
  #navbar a:visited{
                    color:indigo;
