@@ -46,7 +46,6 @@
                         background-color:#e0f2fe;
                        }
           #navbar {
-                   display:flex;
                    background-color:purple;
                    justify-content:center;
                    border-radius:8px;
@@ -57,8 +56,9 @@
                    color:white;
                    text-decoration:none;
                    font-weight:bold;
-                   font-size:16px;
+                   font-size:14px;
                    white-space:nowrap;
+                   display:flex;
                    gap: 8px;
                    padding:10px 15px;
                  }
