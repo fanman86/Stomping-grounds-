@@ -51,7 +51,6 @@
                    justify-content:center;
                    border-radius:8px;
                    padding:18px 20px;
-                   margin: 18px;
                    flex-wrap:35px;
                    width:100%
                   }
@@ -62,6 +61,7 @@
                    font-size:18px;
                    padding:6px 12px;
                    white-space:nowrap;
+                   margin: 12px;
                  }
  #navbar a:visited{
                    color:white;
