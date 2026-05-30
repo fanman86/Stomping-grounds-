@@ -58,7 +58,8 @@
                    font-weight:bold;
                  }
  #navbar a:visited{
-                   color:white;
+                   color:indigo;
+                   background-color:violet;
                   } 
  #navbar a:hover{
                  background-color:purple;
