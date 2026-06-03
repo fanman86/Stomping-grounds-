@@ -59,6 +59,7 @@
                    border-radius:8px;
                    text-decoration:none;
                    font-weight:bold;
+                   white-space:nowrap;
                  }
  #navbar a:visited{
                    color:indigo;
