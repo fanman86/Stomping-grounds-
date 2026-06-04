@@ -53,8 +53,8 @@
                    flex-wrap:wrap;
                   }
         #navbar a{ 
-                   background-color:purple;
-                   color:indigo;
+                   background-color:indigo;
+                   color:palegoldenrod;
                    padding:10px 15px;
                    border-radius:8px;
                    text-decoration:none;
@@ -62,13 +62,10 @@
                    white-space:nowrap;
                  }
  #navbar a:visited{
-                   color:purple;
-                   background-color:violet;
+                   color:violet;
+                   background-color:indigo;
                   } 
- #navbar a:hover{
-                 background-color:purple;
-                 color:indigo;
-                }
+
            
 
 
