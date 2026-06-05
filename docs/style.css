@@ -64,7 +64,11 @@
  #navbar a:visited{
                    color:palegoldenrod;
                    background-color:purple;
-                  } 
+                  }
+ #navbar a:hover{
+                 color:indigo;
+                 background-color:violet;
+                }
 
  
 
