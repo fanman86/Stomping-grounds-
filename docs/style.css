@@ -53,7 +53,7 @@
                    flex-wrap:wrap;
                   }
         #navbar a{
-                   background-color:violet;
+                   
                    padding:10px 15px;
                    border-radius:8px;
                    text-decoration:none;
@@ -62,7 +62,7 @@
                  }
  #navbar a:visited{
                    color:palegoldenrod;
-                  
+                   background-color:purple;
                   }
  #navbar a:hover{
                  background-color:indigo;
