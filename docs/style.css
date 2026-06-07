@@ -53,7 +53,7 @@
                    flex-wrap:wrap;
                   }
         #navbar a{
-                   
+                   background-color:blueviolet;
                    padding:10px 15px;
                    border-radius:8px;
                    text-decoration:none;
@@ -65,7 +65,7 @@
                    background-color:purple;
                   }
  #navbar a:hover{
-                 background-color:indigo;
+                 background-color:blueviolet;
                 }
                   
 
