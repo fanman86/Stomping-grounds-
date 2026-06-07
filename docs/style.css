@@ -53,6 +53,7 @@
                    flex-wrap:wrap;
                   }
         #navbar a{
+                   color:powderblue;
                    background-color:blueviolet;
                    padding:10px 15px;
                    border-radius:8px;
