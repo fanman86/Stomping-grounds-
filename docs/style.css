@@ -1,7 +1,7 @@
 /*most of this information is usually subject to change seeing as to how coding is a first for me and is hghly  experimental*/
          
                #section-dark{
-                             background-color:#0f172a;
+                             background-color:slategray;
                              color:white;
                             }
                #section-light{
@@ -10,7 +10,7 @@
                              }
                #home{
                       font-family:Arial, Helvetica, sans-serif;
-                      background:linear-gradient(to bottom,grey,gray,gainsboro);
+                      background:linear-gradient(to bottom,slategray,gray,gainsboro);
                       color:#0f172a;
                       font-style:oblique;
                       display:flex;
