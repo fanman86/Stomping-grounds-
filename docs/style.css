@@ -1,5 +1,11 @@
 /*most of this information is usually subject to change seeing as to how coding is a first for me and is hghly  experimental*/
-         
+               section{
+                       display: flex;
+                       font-size:20px;
+                       text-decoration:none;
+                       justify-content: center;
+                       align-items:center;
+                      }
                #section-dark{
                              background-color:slategrey;
                              color:white;
