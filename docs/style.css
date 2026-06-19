@@ -47,6 +47,7 @@
                   display:flex;
                   text-align:center;
                   font-weight:bold;
+                  flex-wrap:wrap;
                  }
              .btn:hover{
                         background-color:#e0f2fe;
@@ -74,6 +75,8 @@
  #navbar a:hover{
                  background-color:blueviolet;
                 }
+
+
                   
 
  
