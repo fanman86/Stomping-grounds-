@@ -1,5 +1,5 @@
 function greatuser(){
-document.getElementById=("name")
-.innertextHtml="Hi there,"+"name,"+"Want to know more about artizell? then click the blue button below!";}
+document.getElementById=("sentence")
+.innertextHtml="Hi there,"+"Want to know more about artizell? then click the blue button below!";}
 
 
