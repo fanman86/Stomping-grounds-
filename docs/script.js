@@ -1,8 +1,6 @@
 function greetuser(){
-     let name=document.getElementById("name").value
-     if(name!==""){document.getElementById("Aboutbutton").style.display="block";
+     let name=document.getElementById("name").innerHTML;}
+function ShowButton(){
+       let name=document.getElementById("name").value
+       if(name!==""){document.getElementById("Aboutbutton").style.display="blocked"}
      }
-    if(name.trime()!==""){document.getElementById("Aboutbutton").style.display="block";
-
-      }
-}
