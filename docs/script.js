@@ -1,7 +1,3 @@
-function greetuser(){
-     let name=document.getElementById("name").innerHTML=
-     "Hello"+""+"name,"+"want to know more about artizell? then click the button!!";
-    }
 function ShowButton(){
        let name=document.getElementById("name").value
        if(name!==""){document.getElementById("Aboutbutton").style.display="blocked"}
