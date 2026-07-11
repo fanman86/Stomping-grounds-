@@ -1,3 +1,5 @@
+function greetUser(){
+       document.getElementById(name){if()}}
 function ShowButton(){
        let name=document.getElementById("name").value
        if(name!==""){document.getElementById("Aboutbutton").style.display="blocked"}
