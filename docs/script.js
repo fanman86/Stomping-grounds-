@@ -1,7 +1,8 @@
 function greetUser(){
-       document.getElementById(name){if()}}
-function ShowButton(){
-       let name=document.getElementById("name").value
-       if(name!==""){document.getElementById("Aboutbutton").style.display="blocked"}
-       if(name===""){document.getElementById("name").innerHTML="Hello"+""+"name"+"want to know about artizell?then click the button below"}}
+   let name=document.getElementById("name").value.trim();
+         If(name!==""){
+            document.getElementById("sentence").innerHTML="Welcome"+name+"We're glad you're here!!";
+            document.getElementById("AboutButton").display.style="inline-block";}}
+
+
 
