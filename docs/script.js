@@ -6,7 +6,7 @@ function greetUser(){
             document.getElementById("sentence").innerHTML="Hello "+name+"! we're glad you're here!"
          }
          else{
-              document.getElementById("name").innerHtml="please enter name";
+              document.getElementById("name").innerHTML="please enter name";
               document.getElementById("AboutButton").style.display="block"
        }
         }
