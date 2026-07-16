@@ -2,9 +2,12 @@ function greetUser(){
    let name=document.getElementById("name").value.trim();
          if(name!==""){
             document.getElementById("AboutButton").style.display="inline-block";
-            document.getElementById("name").innerHTML="please enter your name";
+            document.getElementById("name").innerHTML="none";
+            document.getElementById("sentence").innerHTML="Hello "+name+"! we're glad you're here!"
          }
-         else{document.getElementById("sentence").innerHtml="Hello "+name+"we're glad you're here";
+         else{
+              document.getElementById("name").innerHtml="please enter name";
+              document.getElementById("AboutButton").style.display="block"
        }
         }
           
