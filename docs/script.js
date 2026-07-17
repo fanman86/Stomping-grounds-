@@ -7,8 +7,8 @@ function greetUser(){
             document.getElementById("continueButton").style.display="none"
          }
          else{
-              document.getElementById("name").innerHTML="please enter name";
-              document.getElementById("AboutButton").style.display="block"
+              document.getElementById("sentence").innerHTML="welcome to artizell/nplease enter name";
+            
        }
         }
           
