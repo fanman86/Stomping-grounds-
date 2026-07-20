@@ -75,7 +75,14 @@
  #navbar a:hover{
                  background-color:blueviolet;
                 }
- #AboutButton{display:none;}
+ #AboutButton{
+               opacity:0;
+               transition:0.6s ease;
+             }
+ #name{
+       opacity:0;
+       transition: 0.6s;
+      }
        
 
 
