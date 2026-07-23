@@ -6,17 +6,16 @@ function greetUser(){
                                 welcoming.innerHTML="welcome "+"name "+"we're glad you're here!";
                                 welcoming.style.opacity="1";
           },500);
-         let proceed=document.getElementById("continueButton");
          let about=document.getElementById("AboutButton");
-         let input=document.getElementById("name");
          about.style.display="inline-block";
          about.style.opacity="1";
          about.style.display="translateY(0)";
-           }
-       
-    
+         setTimeout(function(){
+                              document.getElementById("name").input.opacity="0";
+                              document.getElementById("continueButton").input.opacity="0";
+          },500);}
 
-         else{
+        else{
               document.getElementById("sentence").innerHTML="welcome to artizell<br>please enter your name";
              }
             }
