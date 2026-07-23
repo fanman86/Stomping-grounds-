@@ -1,18 +1,22 @@
 function greetUser(){
    let name=document.getElementById("name").value.trim();
          if(name!==""){
-            document.getElementById("sentence").innerHTML="Hello "+name+"! we're glad you're here!";
-            document.getElementById("continueButton").style.display="none";
+          let welcoming=document.getElementById("sentence");
+          setTimeout(function(){
+                                welcoming.innerHTML="welcome "+"name "+"we're glad you're here!";
+                                welcoming.style.opacity="1";
+          },500);
+         let proceed=document.getElementById("continueButton");
+         let about=document.getElementById("AboutButton");
+         let input=document.getElementById("name");
+         about.style.display="inline-block";
+         about.style.opacity="1";
+         about.style.display="translateY(0)";
            }
-   let about=document.getElementById("AboutButton");
-      about.style.display="inline-Block"
-      about.style.opacity="1"
-   let input=document.getElementById("name");
-       input.style.opacity="0"
+       
     
 
          else{
               document.getElementById("sentence").innerHTML="welcome to artizell<br>please enter your name";
              }
             }
-   
