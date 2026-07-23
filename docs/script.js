@@ -13,7 +13,7 @@ function greetUser(){
          setTimeout(function(){
                               document.getElementById("name").input.opacity="0";
                               document.getElementById("continueButton").input.opacity="0";
-          },500);}
+                              },500);}
 
         else{
               document.getElementById("sentence").innerHTML="welcome to artizell<br>please enter your name";
