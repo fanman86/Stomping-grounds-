@@ -3,7 +3,7 @@ function greetUser(){
          if(name!==""){
           let welcoming=document.getElementById("sentence");
           setTimeout(function(){
-                                welcoming.innerHTML="welcome "+"name "+"we're glad you're here!";
+                                welcoming.innerHTML="welcome "+name, +"we're glad you're here!";
                                 welcoming.style.opacity="1";
           },500);
          let about=document.getElementById("AboutButton");
