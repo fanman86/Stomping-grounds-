@@ -10,6 +10,10 @@ function greetUser(){
          about.style.display="inline-block";
          about.style.opacity="1";
          about.style.display="translateY(0)";
+         let input=document.getElementById("name");
+         let contin=coninueButton.getElementById("continueButton");
+         input.style.opacity="0";
+         contin.style.opacity="0";
          setTimeout(function(){
                               document.getElementById("name").input.opacity="0";
                               document.getElementById("continueButton").input.opacity="0";
