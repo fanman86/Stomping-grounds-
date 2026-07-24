@@ -1,7 +1,8 @@
 function greetUser(){
    let name=document.getElementById("name").value.trim();
          if(name!==""){
-          let welcoming=document.getElementById("sentence"). style.opacity="0";
+          let welcoming=document.getElementById("sentence");
+          welcoming.style.opacity="0";
           setTimeout(function(){
                                 welcoming.innerHTML="welcome "+name, +"we're glad you're here!";
                                 welcoming.style.opacity="1";
@@ -9,7 +10,7 @@ function greetUser(){
          let about=document.getElementById("AboutButton");
          about.style.display="inline-block";
          about.style.opacity="1";
-         about.style.display="translateY(0)";
+         about.style.transform="translateY(0)";
          let input=document.getElementById("name");
          let contin=coninueButton.getElementById("continueButton");
          input.style.display="0";
@@ -20,6 +21,6 @@ function greetUser(){
                              },500);}
 
         else{
-              document.getElementById("sentence").innerHTML="welcome to artizell<br>please enter your name";
+              document.getElementById("sentence").innerHTML="welcome to artizell,<br>please enter your name";
              }
             }
