@@ -1,7 +1,7 @@
 function greetUser(){
    let name=document.getElementById("name").value.trim();
          if(name!==""){
-          let welcoming=document.getElementById("sentence");
+          let welcoming=document.getElementById("sentence"). style.opacity="0";
           setTimeout(function(){
                                 welcoming.innerHTML="welcome "+name, +"we're glad you're here!";
                                 welcoming.style.opacity="1";
