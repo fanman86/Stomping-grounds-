@@ -12,7 +12,7 @@ function greetUser(){
          about.style.display="translateY(0)";
          let input=document.getElementById("name");
          let contin=coninueButton.getElementById("continueButton");
-         input.style.opacity="0";
+         input.style.display="0";
          contin.style.opacity="0";
          setTimeout(function(){
                               document.getElementById("name").input.opacity="0";
