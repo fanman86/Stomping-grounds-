@@ -13,11 +13,11 @@ function greetUser(){
          about.style.transform="translateY(0)";
          let input=document.getElementById("name");
          let contin=coninueButton.getElementById("continueButton");
-         input.style.display="0";
+         input.style.opacity="0";
          contin.style.opacity="0";
          setTimeout(function(){
-                              document.getElementById("name").input.opacity="0";
-                              document.getElementById("continueButton").input.opacity="0";
+                              document.getElementById("name").input.style.display="none";
+                              document.getElementById("continueButton").style.display="none";
                              },500);}
 
         else{
