@@ -4,7 +4,7 @@ function greetUser(){
           let welcoming=document.getElementById("sentence");
           welcoming.style.opacity="0";
           setTimeout(function(){
-                                welcoming.innerHTML="welcome "+name!+"we're glad you're here !";
+                                welcoming.innerHTML="welcome "+name+"we're glad you're here !";
                                 welcoming.style.opacity="1";
           },500);
          let about=document.getElementById("AboutButton");
