@@ -85,7 +85,7 @@
 
                }
  #Sentence{
-            transition: opacity 0.6s ease;
+            transition: opacity .5s ease
           }
        
 
