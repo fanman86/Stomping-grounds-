@@ -24,3 +24,14 @@ function greetUser(){
               document.getElementById("sentence").innerHTML="welcome to artizell,<br>please enter your name";
              }
             }
+let Shoes={
+      name:"Nike airforce",
+      colour:"black",
+      size:"Amer 8.5,Eur42",
+      price:K390,
+     };
+football jerseys{
+
+}
+
+
